@@ -1,0 +1,77 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(7,68,107);
+    background: linear-gradient(40deg,rgba(11,55,74,1) 0%, rgba(45,53,140,1) 21%, rgba(154,40,154,1) 100%);;
+}
+body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.qrbox{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-row-gap:10px;
+}
+
+img{
+    height: 300px;
+    width: 300px;
+    padding: 1rem;
+    border: 2px solid #cb55da;
+    border-radius: 0.5rem;
+    grid-column: 1 / -1;
+}
+
+textarea{
+    outline: none;
+    height: 100px;
+    padding: 1rem;
+    border: 2px solid #9b1bd6;
+    border-radius: 0.5rem;
+    grid-column: 1 / -1;
+}
+
+button{
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    background-color: #642dbd;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    transition: background-color 0.2s;
+}
+
+button:hover{
+    background-color: #be4bb8;
+}
+
+#gere{
+
+    color: white;
+
+}
+
+h2{
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
