@@ -26,6 +26,7 @@ body{
 }
 
 .qrbox{
+   
     display: grid;
     grid-template-columns: 1fr auto;
     grid-row-gap:10px;
@@ -75,3 +76,11 @@ h2{
     font-family: 'Courier New', Courier, monospace;
     
 }
+
+#cliImg{
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
