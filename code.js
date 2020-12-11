@@ -17,3 +17,6 @@ function generateQR(){
 function select(el){
     return document.querySelector(el);
 }
+
+
+

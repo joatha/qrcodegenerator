@@ -19,6 +19,7 @@ body{
     background: rgb(7,68,107);
     background: linear-gradient(40deg,rgba(11,55,74,1) 0%, rgba(45,53,140,1) 21%, rgba(154,40,154,1) 100%);;
 }
+
 body{
     display: grid;
     justify-content: center;
